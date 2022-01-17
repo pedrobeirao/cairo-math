@@ -1,0 +1,68 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            }
+        ],
+        "name": "get_balance",
+        "outputs": [
+            {
+                "name": "balance",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "amount",
+                "type": "felt"
+            }
+        ],
+        "name": "increase_balance",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "amount",
+                "type": "felt"
+            }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "from_address",
+                "type": "felt"
+            },
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "amount",
+                "type": "felt"
+            }
+        ],
+        "name": "deposit",
+        "outputs": [],
+        "type": "l1_handler"
+    }
+]
